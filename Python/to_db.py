@@ -5,10 +5,10 @@ import pandas as pd
 
 #！ls
 # Change the following 3 to your settings.
-my_username='root'
-my_password='password'
-my_database='lyrics'
-my_db_server='8.209.74.127'
+my_username=''
+my_password=''
+my_database=''
+my_db_server=''
 
 filename = sys.argv[1]
 
