@@ -53,7 +53,7 @@ def write_to_file(term_dic,file_name):
     f.close()
 
 
-myclient = pymongo.MongoClient("8.209.74.127:27017")
+myclient = pymongo.MongoClient("")
 
 mydb = myclient["reverseIndex"]
 mycol = mydb["index"]
