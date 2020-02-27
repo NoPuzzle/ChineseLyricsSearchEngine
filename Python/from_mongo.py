@@ -7,7 +7,7 @@ import sys
 
 
 query = sys.argv[1:]
-myclient = pymongo.MongoClient("8.209.74.127:27017")
+myclient = pymongo.MongoClient("")
 
 mydb = myclient["reverseIndex"]
 mycol = mydb["index"]
